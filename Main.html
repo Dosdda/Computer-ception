@@ -5,10 +5,11 @@
     <title>Computar</title>
 <style>
     :root {
-        --size: 50px;
+        --color: #222;
+        --color2: #444;
     }
     body {
-        background: #222;
+        background: var(--color);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -18,7 +19,7 @@
     .computer {
         width: 700px;
         height: 400px;
-        background: #444;
+        background: var(--color2);
         border: 8px solid #222;
         border-radius: 16px 16px 8px 8px;
         box-shadow: 0 8px 32px #000a;
